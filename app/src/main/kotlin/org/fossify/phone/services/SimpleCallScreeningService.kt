@@ -1,4 +1,4 @@
-package org.fossify.phone.services
+package com.secretdialer.app.services
 
 import android.telecom.Call
 import android.telecom.CallScreeningService

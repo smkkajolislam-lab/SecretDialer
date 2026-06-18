@@ -1,4 +1,4 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import android.graphics.Rect
 import android.view.View

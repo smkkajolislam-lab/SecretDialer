@@ -1,4 +1,4 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import android.content.Intent
 import org.fossify.commons.activities.BaseSplashActivity

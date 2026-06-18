@@ -1,12 +1,12 @@
-package org.fossify.phone.receivers
+package com.secretdialer.app.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import org.fossify.phone.activities.CallActivity
-import org.fossify.phone.helpers.ACCEPT_CALL
-import org.fossify.phone.helpers.CallManager
-import org.fossify.phone.helpers.DECLINE_CALL
+import com.secretdialer.app.activities.CallActivity
+import com.secretdialer.app.helpers.ACCEPT_CALL
+import com.secretdialer.app.helpers.CallManager
+import com.secretdialer.app.helpers.DECLINE_CALL
 
 class CallActionReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

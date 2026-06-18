@@ -1,7 +1,7 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.phone.R
+import com.secretdialer.app.R
 
 open class SimpleActivity : BaseSimpleActivity() {
     override fun getAppIconIDs() = arrayListOf(

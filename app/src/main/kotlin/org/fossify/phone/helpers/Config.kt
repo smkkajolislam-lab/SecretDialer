@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import android.content.Context
 import android.net.Uri
@@ -8,9 +8,9 @@ import android.telephony.TelephonyManager
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.fossify.commons.helpers.BaseConfig
-import org.fossify.phone.extensions.getPhoneAccountHandleModel
-import org.fossify.phone.extensions.putPhoneAccountHandle
-import org.fossify.phone.models.SpeedDial
+import com.secretdialer.app.extensions.getPhoneAccountHandleModel
+import com.secretdialer.app.extensions.putPhoneAccountHandle
+import com.secretdialer.app.models.SpeedDial
 import androidx.core.content.edit
 import java.util.Locale
 

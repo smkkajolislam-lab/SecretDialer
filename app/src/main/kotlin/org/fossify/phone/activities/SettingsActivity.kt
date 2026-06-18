@@ -1,4 +1,4 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import android.content.Intent
 import android.net.Uri
@@ -36,15 +36,15 @@ import org.fossify.commons.helpers.isNougatPlus
 import org.fossify.commons.helpers.isQPlus
 import org.fossify.commons.helpers.isTiramisuPlus
 import org.fossify.commons.models.RadioItem
-import org.fossify.phone.R
-import org.fossify.phone.databinding.ActivitySettingsBinding
-import org.fossify.phone.dialogs.ExportCallHistoryDialog
-import org.fossify.phone.dialogs.ManageVisibleTabsDialog
-import org.fossify.phone.extensions.canLaunchAccountsConfiguration
-import org.fossify.phone.extensions.config
-import org.fossify.phone.extensions.launchAccountsConfiguration
-import org.fossify.phone.helpers.RecentsHelper
-import org.fossify.phone.models.RecentCall
+import com.secretdialer.app.R
+import com.secretdialer.app.databinding.ActivitySettingsBinding
+import com.secretdialer.app.dialogs.ExportCallHistoryDialog
+import com.secretdialer.app.dialogs.ManageVisibleTabsDialog
+import com.secretdialer.app.extensions.canLaunchAccountsConfiguration
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.extensions.launchAccountsConfiguration
+import com.secretdialer.app.helpers.RecentsHelper
+import com.secretdialer.app.models.RecentCall
 import java.util.Locale
 import kotlin.system.exitProcess
 

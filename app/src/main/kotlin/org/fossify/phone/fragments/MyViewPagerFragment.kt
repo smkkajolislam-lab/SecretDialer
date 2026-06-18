@@ -1,4 +1,4 @@
-package org.fossify.phone.fragments
+package com.secretdialer.app.fragments
 
 import android.content.Context
 import android.util.AttributeSet
@@ -10,14 +10,14 @@ import org.fossify.commons.extensions.getTextSize
 import org.fossify.commons.helpers.SORT_BY_FIRST_NAME
 import org.fossify.commons.helpers.SORT_BY_SURNAME
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.phone.activities.MainActivity
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.adapters.ContactsAdapter
-import org.fossify.phone.adapters.RecentCallsAdapter
-import org.fossify.phone.databinding.FragmentLettersLayoutBinding
-import org.fossify.phone.databinding.FragmentRecentsBinding
-import org.fossify.phone.extensions.config
-import org.fossify.phone.helpers.Config
+import com.secretdialer.app.activities.MainActivity
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.adapters.ContactsAdapter
+import com.secretdialer.app.adapters.RecentCallsAdapter
+import com.secretdialer.app.databinding.FragmentLettersLayoutBinding
+import com.secretdialer.app.databinding.FragmentRecentsBinding
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.helpers.Config
 
 abstract class MyViewPagerFragment<BINDING : MyViewPagerFragment.InnerBinding>(context: Context, attributeSet: AttributeSet) :
     RelativeLayout(context, attributeSet) {

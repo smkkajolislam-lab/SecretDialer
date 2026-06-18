@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import android.content.Context
 import android.net.Uri
@@ -9,10 +9,10 @@ import org.fossify.commons.extensions.getPhoneNumberTypeText
 import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.helpers.MyContactsContentProvider
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.phone.R
-import org.fossify.phone.extensions.config
-import org.fossify.phone.extensions.isConference
-import org.fossify.phone.models.CallContact
+import com.secretdialer.app.R
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.extensions.isConference
+import com.secretdialer.app.models.CallContact
 
 fun getCallContact(context: Context, call: Call?, callback: (CallContact) -> Unit) {
     if (call.isConference()) {

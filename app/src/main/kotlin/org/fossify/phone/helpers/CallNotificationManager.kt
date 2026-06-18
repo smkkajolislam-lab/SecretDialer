@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import android.annotation.SuppressLint
 import android.app.Notification
@@ -13,9 +13,9 @@ import android.widget.RemoteViews
 import org.fossify.commons.extensions.notificationManager
 import org.fossify.commons.extensions.setText
 import org.fossify.commons.extensions.setVisibleIf
-import org.fossify.phone.R
-import org.fossify.phone.activities.CallActivity
-import org.fossify.phone.receivers.CallActionReceiver
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.CallActivity
+import com.secretdialer.app.receivers.CallActionReceiver
 
 class CallNotificationManager(private val context: Context) {
     companion object {

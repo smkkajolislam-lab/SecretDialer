@@ -1,4 +1,4 @@
-package org.fossify.phone.services
+package com.secretdialer.app.services
 
 import android.telecom.Call
 import android.telecom.CallAudioState
@@ -6,15 +6,15 @@ import android.telecom.InCallService
 import org.fossify.commons.extensions.canUseFullScreenIntent
 import org.fossify.commons.extensions.hasPermission
 import org.fossify.commons.helpers.PERMISSION_POST_NOTIFICATIONS
-import org.fossify.phone.activities.CallActivity
-import org.fossify.phone.extensions.config
-import org.fossify.phone.extensions.isOutgoing
-import org.fossify.phone.extensions.keyguardManager
-import org.fossify.phone.extensions.powerManager
-import org.fossify.phone.helpers.CallManager
-import org.fossify.phone.helpers.CallNotificationManager
-import org.fossify.phone.helpers.NoCall
-import org.fossify.phone.models.Events
+import com.secretdialer.app.activities.CallActivity
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.extensions.isOutgoing
+import com.secretdialer.app.extensions.keyguardManager
+import com.secretdialer.app.extensions.powerManager
+import com.secretdialer.app.helpers.CallManager
+import com.secretdialer.app.helpers.CallNotificationManager
+import com.secretdialer.app.helpers.NoCall
+import com.secretdialer.app.models.Events
 import org.greenrobot.eventbus.EventBus
 
 class CallService : InCallService() {

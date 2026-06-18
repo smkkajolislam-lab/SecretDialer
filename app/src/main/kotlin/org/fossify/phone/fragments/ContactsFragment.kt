@@ -1,4 +1,4 @@
-package org.fossify.phone.fragments
+package com.secretdialer.app.fragments
 
 import android.content.Context
 import android.util.AttributeSet
@@ -20,17 +20,17 @@ import org.fossify.commons.helpers.PERMISSION_READ_CONTACTS
 import org.fossify.commons.helpers.SMT_PRIVATE
 import org.fossify.commons.helpers.getProperText
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.phone.R
-import org.fossify.phone.activities.MainActivity
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.adapters.ContactsAdapter
-import org.fossify.phone.databinding.FragmentContactsBinding
-import org.fossify.phone.databinding.FragmentLettersLayoutBinding
-import org.fossify.phone.extensions.handleGenericContactClick
-import org.fossify.phone.extensions.launchCreateNewContactIntent
-import org.fossify.phone.extensions.setupWithContacts
-import org.fossify.phone.extensions.startContactDetailsIntent
-import org.fossify.phone.interfaces.RefreshItemsListener
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.MainActivity
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.adapters.ContactsAdapter
+import com.secretdialer.app.databinding.FragmentContactsBinding
+import com.secretdialer.app.databinding.FragmentLettersLayoutBinding
+import com.secretdialer.app.extensions.handleGenericContactClick
+import com.secretdialer.app.extensions.launchCreateNewContactIntent
+import com.secretdialer.app.extensions.setupWithContacts
+import com.secretdialer.app.extensions.startContactDetailsIntent
+import com.secretdialer.app.interfaces.RefreshItemsListener
 
 class ContactsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerFragment<MyViewPagerFragment.LettersInnerBinding>(context, attributeSet),
     RefreshItemsListener {

@@ -1,4 +1,4 @@
-package org.fossify.phone.models
+package com.secretdialer.app.models
 
 import org.fossify.commons.helpers.DAY_SECONDS
 

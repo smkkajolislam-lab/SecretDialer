@@ -1,10 +1,10 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.*
-import org.fossify.phone.R
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.databinding.DialogExportCallHistoryBinding
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.databinding.DialogExportCallHistoryBinding
 
 class ExportCallHistoryDialog(val activity: SimpleActivity, callback: (filename: String) -> Unit) {
 

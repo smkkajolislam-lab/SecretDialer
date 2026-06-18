@@ -1,4 +1,4 @@
-package org.fossify.phone.adapters
+package com.secretdialer.app.adapters
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.Drawable
@@ -48,23 +48,23 @@ import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.helpers.isNougatPlus
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.phone.R
-import org.fossify.phone.activities.MainActivity
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.databinding.ItemRecentCallBinding
-import org.fossify.phone.databinding.ItemRecentsDateBinding
-import org.fossify.phone.dialogs.ShowGroupedCallsDialog
-import org.fossify.phone.extensions.areMultipleSIMsAvailable
-import org.fossify.phone.extensions.callContactWithSimWithConfirmationCheck
-import org.fossify.phone.extensions.config
-import org.fossify.phone.extensions.getDayCode
-import org.fossify.phone.extensions.startAddContactIntent
-import org.fossify.phone.extensions.startCallWithConfirmationCheck
-import org.fossify.phone.extensions.startContactDetailsIntent
-import org.fossify.phone.helpers.RecentsHelper
-import org.fossify.phone.interfaces.RefreshItemsListener
-import org.fossify.phone.models.CallLogItem
-import org.fossify.phone.models.RecentCall
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.MainActivity
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.databinding.ItemRecentCallBinding
+import com.secretdialer.app.databinding.ItemRecentsDateBinding
+import com.secretdialer.app.dialogs.ShowGroupedCallsDialog
+import com.secretdialer.app.extensions.areMultipleSIMsAvailable
+import com.secretdialer.app.extensions.callContactWithSimWithConfirmationCheck
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.extensions.getDayCode
+import com.secretdialer.app.extensions.startAddContactIntent
+import com.secretdialer.app.extensions.startCallWithConfirmationCheck
+import com.secretdialer.app.extensions.startContactDetailsIntent
+import com.secretdialer.app.helpers.RecentsHelper
+import com.secretdialer.app.interfaces.RefreshItemsListener
+import com.secretdialer.app.models.CallLogItem
+import com.secretdialer.app.models.RecentCall
 import org.joda.time.DateTime
 import java.util.Locale
 

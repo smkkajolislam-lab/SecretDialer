@@ -1,4 +1,4 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import android.os.Bundle
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentManager
 import org.fossify.commons.adapters.SimpleListItemAdapter
 import org.fossify.commons.fragments.BaseBottomSheetDialogFragment
 import org.fossify.commons.models.SimpleListItem
-import org.fossify.phone.databinding.LayoutSimpleRecyclerViewBinding
+import com.secretdialer.app.databinding.LayoutSimpleRecyclerViewBinding
 
 // same as BottomSheetChooserDialog but with dynamic updates
 class DynamicBottomSheetChooserDialog : BaseBottomSheetDialogFragment() {

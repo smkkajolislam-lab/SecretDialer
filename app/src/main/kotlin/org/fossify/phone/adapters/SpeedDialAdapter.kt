@@ -1,14 +1,14 @@
-package org.fossify.phone.adapters
+package com.secretdialer.app.adapters
 
 import android.view.Menu
 import android.view.ViewGroup
 import org.fossify.commons.adapters.MyRecyclerViewAdapter
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.phone.R
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.databinding.ItemSpeedDialBinding
-import org.fossify.phone.interfaces.RemoveSpeedDialListener
-import org.fossify.phone.models.SpeedDial
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.databinding.ItemSpeedDialBinding
+import com.secretdialer.app.interfaces.RemoveSpeedDialListener
+import com.secretdialer.app.models.SpeedDial
 
 class SpeedDialAdapter(
     activity: SimpleActivity, var speedDialValues: List<SpeedDial>, private val removeListener: RemoveSpeedDialListener,

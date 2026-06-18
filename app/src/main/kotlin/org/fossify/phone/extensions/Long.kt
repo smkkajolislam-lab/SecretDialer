@@ -1,4 +1,4 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import org.fossify.commons.extensions.toDayCode
 

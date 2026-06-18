@@ -1,4 +1,4 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import android.app.Activity
 import android.content.Intent
@@ -15,7 +15,7 @@ import org.fossify.commons.helpers.ON_CLICK_VIEW_CONTACT
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.phone.activities.SimpleActivity
+import com.secretdialer.app.activities.SimpleActivity
 
 fun SimpleActivity.handleGenericContactClick(contact: Contact) {
     when (config.onContactClick) {

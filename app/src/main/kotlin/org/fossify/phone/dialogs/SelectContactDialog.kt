@@ -1,4 +1,4 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import android.graphics.Color
 import android.view.inputmethod.EditorInfo
@@ -8,11 +8,11 @@ import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.*
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.views.MySearchMenu
-import org.fossify.phone.R
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.adapters.ContactsAdapter
-import org.fossify.phone.databinding.DialogSelectContactBinding
-import org.fossify.phone.extensions.setupWithContacts
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.adapters.ContactsAdapter
+import com.secretdialer.app.databinding.DialogSelectContactBinding
+import com.secretdialer.app.extensions.setupWithContacts
 
 class SelectContactDialog(val activity: SimpleActivity, val contacts: List<Contact>, val callback: (selectedContact: Contact) -> Unit) {
     private val binding by activity.viewBinding(DialogSelectContactBinding::inflate)

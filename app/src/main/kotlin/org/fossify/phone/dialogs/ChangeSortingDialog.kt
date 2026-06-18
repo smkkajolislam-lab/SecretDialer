@@ -1,4 +1,4 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.beGoneIf
@@ -6,9 +6,9 @@ import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.viewBinding
 import org.fossify.commons.helpers.*
-import org.fossify.phone.R
-import org.fossify.phone.databinding.DialogChangeSortingBinding
-import org.fossify.phone.extensions.config
+import com.secretdialer.app.R
+import com.secretdialer.app.databinding.DialogChangeSortingBinding
+import com.secretdialer.app.extensions.config
 
 class ChangeSortingDialog(val activity: BaseSimpleActivity, private val showCustomSorting: Boolean = false, private val callback: () -> Unit) {
     private val binding by activity.viewBinding(DialogChangeSortingBinding::inflate)

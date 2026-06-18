@@ -1,11 +1,11 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import android.os.Bundle
 import org.fossify.commons.extensions.viewBinding
 import org.fossify.commons.helpers.NavigationIcon
-import org.fossify.phone.adapters.ConferenceCallsAdapter
-import org.fossify.phone.databinding.ActivityConferenceBinding
-import org.fossify.phone.helpers.CallManager
+import com.secretdialer.app.adapters.ConferenceCallsAdapter
+import com.secretdialer.app.databinding.ActivityConferenceBinding
+import com.secretdialer.app.helpers.CallManager
 
 class ConferenceActivity : SimpleActivity() {
     private val binding by viewBinding(ActivityConferenceBinding::inflate)

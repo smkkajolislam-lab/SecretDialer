@@ -1,4 +1,4 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import androidx.recyclerview.widget.RecyclerView
 import com.reddit.indicatorfastscroll.FastScrollItemIndicator

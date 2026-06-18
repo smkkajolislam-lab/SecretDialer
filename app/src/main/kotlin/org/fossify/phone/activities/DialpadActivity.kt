@@ -1,4 +1,4 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -44,23 +44,23 @@ import org.fossify.commons.helpers.NavigationIcon
 import org.fossify.commons.helpers.REQUEST_CODE_SET_DEFAULT_DIALER
 import org.fossify.commons.helpers.isOreoPlus
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.phone.R
-import org.fossify.phone.adapters.ContactsAdapter
-import org.fossify.phone.databinding.ActivityDialpadBinding
-import org.fossify.phone.extensions.addCharacter
-import org.fossify.phone.extensions.areMultipleSIMsAvailable
-import org.fossify.phone.extensions.boundingBox
-import org.fossify.phone.extensions.config
-import org.fossify.phone.extensions.disableKeyboard
-import org.fossify.phone.extensions.getKeyEvent
-import org.fossify.phone.extensions.setupWithContacts
-import org.fossify.phone.extensions.startAddContactIntent
-import org.fossify.phone.extensions.startCallWithConfirmationCheck
-import org.fossify.phone.extensions.startContactDetailsIntent
-import org.fossify.phone.helpers.DIALPAD_TONE_LENGTH_MS
-import org.fossify.phone.helpers.RecentsHelper
-import org.fossify.phone.helpers.ToneGeneratorHelper
-import org.fossify.phone.models.SpeedDial
+import com.secretdialer.app.R
+import com.secretdialer.app.adapters.ContactsAdapter
+import com.secretdialer.app.databinding.ActivityDialpadBinding
+import com.secretdialer.app.extensions.addCharacter
+import com.secretdialer.app.extensions.areMultipleSIMsAvailable
+import com.secretdialer.app.extensions.boundingBox
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.extensions.disableKeyboard
+import com.secretdialer.app.extensions.getKeyEvent
+import com.secretdialer.app.extensions.setupWithContacts
+import com.secretdialer.app.extensions.startAddContactIntent
+import com.secretdialer.app.extensions.startCallWithConfirmationCheck
+import com.secretdialer.app.extensions.startContactDetailsIntent
+import com.secretdialer.app.helpers.DIALPAD_TONE_LENGTH_MS
+import com.secretdialer.app.helpers.RecentsHelper
+import com.secretdialer.app.helpers.ToneGeneratorHelper
+import com.secretdialer.app.models.SpeedDial
 import java.util.Locale
 import kotlin.math.roundToInt
 

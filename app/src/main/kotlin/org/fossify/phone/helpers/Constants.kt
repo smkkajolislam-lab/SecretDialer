@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import org.fossify.commons.helpers.TAB_CALL_HISTORY
 import org.fossify.commons.helpers.TAB_CONTACTS
@@ -24,7 +24,7 @@ const val ALL_TABS_MASK = TAB_CONTACTS or TAB_FAVORITES or TAB_CALL_HISTORY
 
 val tabsList = arrayListOf(TAB_CONTACTS, TAB_FAVORITES, TAB_CALL_HISTORY)
 
-private const val PATH = "org.fossify.phone.action."
+private const val PATH = "com.secretdialer.app.action."
 const val ACCEPT_CALL = PATH + "ACCEPT_CALL"
 const val DECLINE_CALL = PATH + "DECLINE_CALL"
 

@@ -1,4 +1,4 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import android.os.Bundle
 import com.google.gson.Gson
@@ -13,12 +13,12 @@ import org.fossify.commons.helpers.NavigationIcon
 import org.fossify.commons.models.PhoneNumber
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.phone.adapters.SpeedDialAdapter
-import org.fossify.phone.databinding.ActivityManageSpeedDialBinding
-import org.fossify.phone.dialogs.SelectContactDialog
-import org.fossify.phone.extensions.config
-import org.fossify.phone.interfaces.RemoveSpeedDialListener
-import org.fossify.phone.models.SpeedDial
+import com.secretdialer.app.adapters.SpeedDialAdapter
+import com.secretdialer.app.databinding.ActivityManageSpeedDialBinding
+import com.secretdialer.app.dialogs.SelectContactDialog
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.interfaces.RemoveSpeedDialListener
+import com.secretdialer.app.models.SpeedDial
 
 class ManageSpeedDialActivity : SimpleActivity(), RemoveSpeedDialListener {
     private val binding by viewBinding(ActivityManageSpeedDialBinding::inflate)

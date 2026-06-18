@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

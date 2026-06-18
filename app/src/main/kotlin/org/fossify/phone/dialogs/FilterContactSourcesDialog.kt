@@ -1,4 +1,4 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.*
@@ -7,11 +7,11 @@ import org.fossify.commons.helpers.MyContactsContentProvider
 import org.fossify.commons.helpers.SMT_PRIVATE
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.models.contacts.ContactSource
-import org.fossify.phone.R
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.adapters.FilterContactSourcesAdapter
-import org.fossify.phone.databinding.DialogFilterContactSourcesBinding
-import org.fossify.phone.extensions.config
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.adapters.FilterContactSourcesAdapter
+import com.secretdialer.app.databinding.DialogFilterContactSourcesBinding
+import com.secretdialer.app.extensions.config
 
 class FilterContactSourcesDialog(val activity: SimpleActivity, private val callback: () -> Unit) {
     private val binding by activity.viewBinding(DialogFilterContactSourcesBinding::inflate)

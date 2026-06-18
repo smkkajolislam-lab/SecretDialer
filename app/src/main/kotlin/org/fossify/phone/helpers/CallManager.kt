@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import android.annotation.SuppressLint
 import android.os.Handler
@@ -6,10 +6,10 @@ import android.telecom.Call
 import android.telecom.CallAudioState
 import android.telecom.InCallService
 import android.telecom.VideoProfile
-import org.fossify.phone.extensions.getStateCompat
-import org.fossify.phone.extensions.hasCapability
-import org.fossify.phone.extensions.isConference
-import org.fossify.phone.models.AudioRoute
+import com.secretdialer.app.extensions.getStateCompat
+import com.secretdialer.app.extensions.hasCapability
+import com.secretdialer.app.extensions.isConference
+import com.secretdialer.app.models.AudioRoute
 import java.util.concurrent.CopyOnWriteArraySet
 
 // inspired by https://github.com/Chooloo/call_manage

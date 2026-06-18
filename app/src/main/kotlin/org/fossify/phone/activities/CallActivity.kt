@@ -1,4 +1,4 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import android.annotation.SuppressLint
 import android.app.KeyguardManager
@@ -30,13 +30,13 @@ import com.bumptech.glide.request.RequestOptions
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.SimpleListItem
-import org.fossify.phone.R
-import org.fossify.phone.databinding.ActivityCallBinding
-import org.fossify.phone.dialogs.DynamicBottomSheetChooserDialog
-import org.fossify.phone.extensions.*
-import org.fossify.phone.helpers.*
-import org.fossify.phone.models.AudioRoute
-import org.fossify.phone.models.CallContact
+import com.secretdialer.app.R
+import com.secretdialer.app.databinding.ActivityCallBinding
+import com.secretdialer.app.dialogs.DynamicBottomSheetChooserDialog
+import com.secretdialer.app.extensions.*
+import com.secretdialer.app.helpers.*
+import com.secretdialer.app.models.AudioRoute
+import com.secretdialer.app.models.CallContact
 import kotlin.math.max
 import kotlin.math.min
 
@@ -849,7 +849,7 @@ class CallActivity : SimpleActivity() {
 
         try {
             val powerManager = getSystemService(Context.POWER_SERVICE) as PowerManager
-            screenOnWakeLock = powerManager.newWakeLock(PowerManager.FULL_WAKE_LOCK, "org.fossify.phone:full_wake_lock")
+            screenOnWakeLock = powerManager.newWakeLock(PowerManager.FULL_WAKE_LOCK, "com.secretdialer.app:full_wake_lock")
             screenOnWakeLock!!.acquire(5 * 1000L)
         } catch (e: Exception) {
         }
@@ -858,7 +858,7 @@ class CallActivity : SimpleActivity() {
     private fun enableProximitySensor() {
         if (!config.disableProximitySensor && (proximityWakeLock == null || proximityWakeLock?.isHeld == false)) {
             val powerManager = getSystemService(Context.POWER_SERVICE) as PowerManager
-            proximityWakeLock = powerManager.newWakeLock(PowerManager.PROXIMITY_SCREEN_OFF_WAKE_LOCK, "org.fossify.phone:wake_lock")
+            proximityWakeLock = powerManager.newWakeLock(PowerManager.PROXIMITY_SCREEN_OFF_WAKE_LOCK, "com.secretdialer.app:wake_lock")
             proximityWakeLock!!.acquire(60 * MINUTE_SECONDS * 1000L)
         }
     }

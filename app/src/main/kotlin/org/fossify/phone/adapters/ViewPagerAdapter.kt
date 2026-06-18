@@ -1,4 +1,4 @@
-package org.fossify.phone.adapters
+package com.secretdialer.app.adapters
 
 import android.view.View
 import android.view.ViewGroup
@@ -6,11 +6,11 @@ import androidx.viewpager.widget.PagerAdapter
 import org.fossify.commons.helpers.TAB_CALL_HISTORY
 import org.fossify.commons.helpers.TAB_CONTACTS
 import org.fossify.commons.helpers.TAB_FAVORITES
-import org.fossify.phone.R
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.extensions.config
-import org.fossify.phone.fragments.MyViewPagerFragment
-import org.fossify.phone.helpers.tabsList
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.fragments.MyViewPagerFragment
+import com.secretdialer.app.helpers.tabsList
 
 class ViewPagerAdapter(val activity: SimpleActivity) : PagerAdapter() {
 

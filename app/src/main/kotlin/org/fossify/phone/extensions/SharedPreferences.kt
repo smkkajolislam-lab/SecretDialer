@@ -1,10 +1,10 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import android.content.SharedPreferences
 import android.telecom.PhoneAccountHandle
 import com.google.gson.Gson
 import com.google.gson.JsonSyntaxException
-import org.fossify.phone.models.PhoneAccountHandleModel
+import com.secretdialer.app.models.PhoneAccountHandleModel
 
 fun SharedPreferences.Editor.putPhoneAccountHandle(
     key: String,

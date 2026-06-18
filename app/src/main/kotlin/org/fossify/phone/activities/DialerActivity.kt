@@ -1,4 +1,4 @@
-package org.fossify.phone.activities
+package com.secretdialer.app.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -9,8 +9,8 @@ import android.telecom.TelecomManager
 import android.widget.Toast
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.REQUEST_CODE_SET_DEFAULT_DIALER
-import org.fossify.phone.R
-import org.fossify.phone.extensions.getHandleToUse
+import com.secretdialer.app.R
+import com.secretdialer.app.extensions.getHandleToUse
 
 class DialerActivity : SimpleActivity() {
     private var callNumber: Uri? = null

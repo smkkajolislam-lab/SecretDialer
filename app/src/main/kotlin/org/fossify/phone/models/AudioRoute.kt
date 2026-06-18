@@ -1,9 +1,9 @@
-package org.fossify.phone.models
+package com.secretdialer.app.models
 
 import android.telecom.CallAudioState
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import org.fossify.phone.R
+import com.secretdialer.app.R
 
 enum class AudioRoute(val route: Int, @StringRes val stringRes: Int, @DrawableRes val iconRes: Int) {
     SPEAKER(CallAudioState.ROUTE_SPEAKER, R.string.audio_route_speaker, R.drawable.ic_volume_up_vector),

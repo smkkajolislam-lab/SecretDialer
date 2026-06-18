@@ -1,4 +1,4 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
@@ -8,10 +8,10 @@ import org.fossify.commons.helpers.TAB_CALL_HISTORY
 import org.fossify.commons.helpers.TAB_CONTACTS
 import org.fossify.commons.helpers.TAB_FAVORITES
 import org.fossify.commons.views.MyAppCompatCheckbox
-import org.fossify.phone.R
-import org.fossify.phone.databinding.DialogManageVisibleTabsBinding
-import org.fossify.phone.extensions.config
-import org.fossify.phone.helpers.ALL_TABS_MASK
+import com.secretdialer.app.R
+import com.secretdialer.app.databinding.DialogManageVisibleTabsBinding
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.helpers.ALL_TABS_MASK
 
 class ManageVisibleTabsDialog(val activity: BaseSimpleActivity) {
     private val binding by activity.viewBinding(DialogManageVisibleTabsBinding::inflate)

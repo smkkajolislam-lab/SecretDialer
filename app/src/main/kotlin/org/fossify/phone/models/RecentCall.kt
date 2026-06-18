@@ -1,8 +1,8 @@
-package org.fossify.phone.models
+package com.secretdialer.app.models
 
 import android.telephony.PhoneNumberUtils
 import org.fossify.commons.extensions.normalizePhoneNumber
-import org.fossify.phone.extensions.getDayCode
+import com.secretdialer.app.extensions.getDayCode
 
 /**
  * Used at displaying recent calls.

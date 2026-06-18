@@ -1,14 +1,14 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.viewBinding
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.adapters.RecentCallsAdapter
-import org.fossify.phone.databinding.DialogShowGroupedCallsBinding
-import org.fossify.phone.models.RecentCall
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.adapters.RecentCallsAdapter
+import com.secretdialer.app.databinding.DialogShowGroupedCallsBinding
+import com.secretdialer.app.models.RecentCall
 
 class ShowGroupedCallsDialog(val activity: BaseSimpleActivity, recentCalls: List<RecentCall>) {
     private var dialog: AlertDialog? = null

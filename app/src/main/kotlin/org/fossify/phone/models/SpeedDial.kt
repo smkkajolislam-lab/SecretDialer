@@ -1,4 +1,4 @@
-package org.fossify.phone.models
+package com.secretdialer.app.models
 
 import android.content.Context
 import org.fossify.commons.extensions.getPhoneNumberTypeText

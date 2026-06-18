@@ -1,4 +1,4 @@
-package org.fossify.phone.adapters
+package com.secretdialer.app.adapters
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -28,13 +28,13 @@ import org.fossify.commons.interfaces.ItemTouchHelperContract
 import org.fossify.commons.interfaces.StartReorderDragListener
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.phone.R
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.extensions.areMultipleSIMsAvailable
-import org.fossify.phone.extensions.callContactWithSim
-import org.fossify.phone.extensions.config
-import org.fossify.phone.extensions.startContactDetailsIntent
-import org.fossify.phone.interfaces.RefreshItemsListener
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.extensions.areMultipleSIMsAvailable
+import com.secretdialer.app.extensions.callContactWithSim
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.extensions.startContactDetailsIntent
+import com.secretdialer.app.interfaces.RefreshItemsListener
 import java.util.Collections
 
 class ContactsAdapter(

@@ -1,4 +1,4 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -14,8 +14,8 @@ import org.fossify.commons.extensions.launchActivityIntent
 import org.fossify.commons.extensions.telecomManager
 import org.fossify.commons.helpers.KEY_PHONE
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.phone.helpers.Config
-import org.fossify.phone.models.SIMAccount
+import com.secretdialer.app.helpers.Config
+import com.secretdialer.app.models.SIMAccount
 
 val Context.config: Config get() = Config.newInstance(applicationContext)
 

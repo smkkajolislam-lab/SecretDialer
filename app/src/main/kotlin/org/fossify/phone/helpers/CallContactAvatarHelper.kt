@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,8 +7,8 @@ import android.net.Uri
 import android.provider.MediaStore
 import android.util.Size
 import org.fossify.commons.helpers.isQPlus
-import org.fossify.phone.R
-import org.fossify.phone.models.CallContact
+import com.secretdialer.app.R
+import com.secretdialer.app.models.CallContact
 
 class CallContactAvatarHelper(private val context: Context) {
     @SuppressLint("NewApi")

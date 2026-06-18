@@ -1,4 +1,4 @@
-package org.fossify.phone.adapters
+package com.secretdialer.app.adapters
 
 import android.view.View
 import android.view.ViewGroup
@@ -8,8 +8,8 @@ import org.fossify.commons.extensions.getProperPrimaryColor
 import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.helpers.SMT_PRIVATE
 import org.fossify.commons.models.contacts.ContactSource
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.databinding.ItemFilterContactSourceBinding
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.databinding.ItemFilterContactSourceBinding
 
 class FilterContactSourcesAdapter(
     val activity: SimpleActivity,

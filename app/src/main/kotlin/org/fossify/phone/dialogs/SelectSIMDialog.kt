@@ -1,4 +1,4 @@
-package org.fossify.phone.dialogs
+package com.secretdialer.app.dialogs
 
 import android.annotation.SuppressLint
 import android.telecom.PhoneAccountHandle
@@ -10,10 +10,10 @@ import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.viewBinding
-import org.fossify.phone.R
-import org.fossify.phone.databinding.DialogSelectSimBinding
-import org.fossify.phone.extensions.config
-import org.fossify.phone.extensions.getAvailableSIMCardLabels
+import com.secretdialer.app.R
+import com.secretdialer.app.databinding.DialogSelectSimBinding
+import com.secretdialer.app.extensions.config
+import com.secretdialer.app.extensions.getAvailableSIMCardLabels
 
 @SuppressLint("MissingPermission")
 class SelectSIMDialog(

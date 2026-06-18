@@ -1,4 +1,4 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import android.telecom.Call
 import android.telecom.Call.STATE_CONNECTING

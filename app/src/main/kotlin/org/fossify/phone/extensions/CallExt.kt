@@ -1,4 +1,4 @@
-package org.fossify.phone.extensions
+package com.secretdialer.app.extensions
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -18,10 +18,10 @@ import org.fossify.commons.extensions.openNotificationSettings
 import org.fossify.commons.extensions.telecomManager
 import org.fossify.commons.helpers.PERMISSION_READ_PHONE_STATE
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.phone.BuildConfig
-import org.fossify.phone.activities.DialerActivity
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.dialogs.SelectSIMDialog
+import com.secretdialer.app.BuildConfig
+import com.secretdialer.app.activities.DialerActivity
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.dialogs.SelectSIMDialog
 
 fun SimpleActivity.startCallIntent(
     recipient: String,

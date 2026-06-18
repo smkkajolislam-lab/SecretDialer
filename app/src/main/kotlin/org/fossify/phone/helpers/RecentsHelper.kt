@@ -1,4 +1,4 @@
-package org.fossify.phone.helpers
+package com.secretdialer.app.helpers
 
 import android.annotation.SuppressLint
 import android.content.ContentValues
@@ -10,11 +10,11 @@ import android.telephony.PhoneNumberUtils
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.phone.R
-import org.fossify.phone.activities.SimpleActivity
-import org.fossify.phone.extensions.getAvailableSIMCardLabels
-import org.fossify.phone.models.RecentCall
-import org.fossify.phone.models.SIMAccount
+import com.secretdialer.app.R
+import com.secretdialer.app.activities.SimpleActivity
+import com.secretdialer.app.extensions.getAvailableSIMCardLabels
+import com.secretdialer.app.models.RecentCall
+import com.secretdialer.app.models.SIMAccount
 
 class RecentsHelper(private val context: Context) {
     companion object {
