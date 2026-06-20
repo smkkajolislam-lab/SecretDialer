@@ -13,7 +13,9 @@ jobs:
       - uses: gradle/gradle-build-action@v2
       - name: Build Debug APK
         run: ./gradlew assembleDebug
+      - name: List APK files
+        run: find app/build/outputs -name "*.apk"
       - uses: actions/upload-artifact@v4
         with:
           name: SecretDialer-debug
-          path: app/build/outputs/apk/debug/*.apk
+          path: app/build/outputs/apk/debug/
